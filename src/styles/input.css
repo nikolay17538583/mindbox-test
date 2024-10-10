@@ -1,0 +1,21 @@
+.todo-input {
+  background: white;
+  margin-bottom: 0;
+  padding: 1rem;
+}
+
+.todo-input-field {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+  border: none;
+}
+
+.todo-input-field::placeholder {
+  color: #e6e6e6;
+  font-style: italic;
+}
+
+.todo-input-field:focus {
+  outline: none;
+}
